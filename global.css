@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import 'uniwind';
+
+/* DoneDash theme: Dark Slate + Emerald */
+@theme {
+  --color-dash-bg: #0b1220;
+  --color-dash-card: #131c2e;
+  --color-dash-border: #1f2b44;
+  --color-dash-muted: #7c8aa5;
+  --color-dash-green: #10b981;
+  --color-dash-green-dark: #059669;
+  --color-dash-red: #f87171;
+}

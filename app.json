@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "DoneDash",
+    "slug": "donedash",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tuhinul.donedash"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0b1220",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.tuhinul.donedash"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "donedash",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
